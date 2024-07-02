@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Exercício</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+      h2 {
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+      }
+      main {
+        font-family: "Josefin Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgba(0, 0, 0, 0.732)">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="logo4.png" class="marca" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nutricao.html">Nutrição</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio.html">Exercício</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Cadastro</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container text-center">
+      <div class="col" style="margin: 10px">
+        <img src="logo.png" alt="logo" class="imgHead" />
+        <h2>Exercício Físico</h2>
+        <hr style="color: white" />
+      </div>
+    </header>
+    <!--Importância-->
+    <main class="container text-center justify-content-center">
+      <div class="row justify-content-center">
+        <div class="col-5 Excontainer">
+          <h1>Importância do Exercício Físico</h1>
+          <p>
+            Os exercícios físicos trazem uma série de benefícios para a saúde e
+            o bem-estar:
+          </p>
+          <ol>
+            <li>
+              <strong>Combate o Excesso de Peso:</strong> Os exercícios aceleram
+              o metabolismo, favorecendo a queima de calorias.
+            </li>
+            <li>
+              <strong>Reduz a Pressão Arterial:</strong> Atividades aeróbicas
+              melhoram a circulação sanguínea.
+            </li>
+            <li>
+              <strong>Diminui o Risco de Doenças Cardiovasculares:</strong>
+              Melhora os níveis de colesterol e reduz o risco de doenças
+              cardíacas.
+            </li>
+            <li>
+              <strong>Ajuda a Controlar a Glicemia:</strong> Melhora a
+              sensibilidade à insulina.
+            </li>
+            <li>
+              <strong>Fortalece Ossos e Articulações:</strong> Contribui para a
+              densidade óssea.
+            </li>
+            <li>
+              <strong>Melhora a Qualidade do Sono:</strong> Promove um sono mais
+              profundo.
+            </li>
+            <li>
+              <strong>Aumenta a Autoestima e o Bem-Estar:</strong> Liberação de
+              endorfinas melhora o humor.
+            </li>
+            <li>
+              <strong>Contribui para Manter o Peso Ideal:</strong> Combinado com
+              alimentação saudável.
+            </li>
+          </ol>
+          <p>
+            Lembre-se de escolher atividades que você goste e consulte um
+            profissional antes de iniciar qualquer programa de exercícios.
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="natacao.jpg" alt="natação" class="imgHistoria" />
+          <img src="running.jpg" alt="corrida" class="imgHistoria" />
+        </div>
+      </div>
+    </main>
+    <!--Consultoria-->
+     <!--tabela crianças-->
+    <main class="container text-center justify-content-center">
+      <div class="row-8 justify-content-center">
+        <div class="row justify-content-center">
+          <h2>Aconselhamento de Grupos</h2>
+          <hr style="color: white" />
+        </div>
+        <div class="row justify-content-center d-flex">
+          <h4 class="text-success">
+            Melhores Exercícios Físicos para Crianças
+            <i class="text-success fa-solid fa-children"></i>
+          </h4>
+          <table class="table table-success rounded-5">
+            <thead>
+              <tr>
+                <th scope="col">Exercício</th>
+                <th scope="col">Benefícios</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Natação</td>
+                <td>
+                  Melhora a respiração e o condicionamento cardiovascular.
+                </td>
+              </tr>
+              <tr>
+                <td>Ballet</td>
+                <td>
+                  Ideal para melhorar a postura e aumentar a flexibilidade.
+                </td>
+              </tr>
+              <tr>
+                <td>Corrida</td>
+                <td>Fortalece os ossos mais do que a natação.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!--tabela Idosos-->
+    <main class="container text-center justify-content-center">
+      <div class="row-8 justify-content-center">
+        <div class="row justify-content-center d-flex">
+          <h4 class="text-warning">
+            Melhores Exercícios Físicos para Idosos
+            <i class="fa-solid fa-person-cane text-warning"></i>
+          </h4>
+          <table class="table table-warning rounded-5">
+            <thead>
+              <tr>
+                <th scope="col">Exercício</th>
+                <th scope="col">Benefícios</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Caminhada</td>
+                <td>
+                  Fortalece os músculos e as articulações. Melhora o ritmo
+                  cardíaco e promove o convívio social.
+                </td>
+              </tr>
+              <tr>
+                <td>Natação</td>
+                <td>
+                  Alonga e fortalece os músculos e articulações. Alivia dores
+                  causadas pela artrite e previne perda óssea.
+                </td>
+              </tr>
+              <tr>
+                <td>Corrida</td>
+                <td>Fortalece os ossos mais do que a natação.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  <!--tabela def-->
+    <main class="container text-center justify-content-center">
+      <div class="row-8 justify-content-center">
+        <div class="row justify-content-center d-flex">
+          <h4 class="text-info">
+            Melhores Exercícios Físicos para Pessoas com Deficiência
+            <i class="fa-brands fa-accessible-icon text-info"></i>          
+          </h4>
+          <table class="table table-info rounded-5">
+            <thead>
+              <tr>
+                <th scope="col">Exercício</th>
+                <th scope="col">Benefícios</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Exercícios de Mobilidade</td>
+                <td>Aumenta a amplitude das articulações.</td>
+              </tr>
+              <tr>
+                <td>Musculação Adaptada</td>
+                <td>Fortalece os músculos e mantém a mobilidade.</td>
+              </tr>
+              <tr>
+                <td>Fisioterapia</td>
+                <td>Auxilia na mobilidade e desenvolvimento muscular</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!--footer-->
+    <footer class="d-flex flex-wrap align-items-center py-3 border-top foot">
+      <div class="containerFooter">
+        <div class="imgFooter">
+          <img src="logo.png" alt="" class="marca" style="height: 3rem; width: 3rem;" />
+        </div>
+        <div class="pFooter">
+          <p style="color: white;">© 2024 Company, HealthTec</p>
+        </div>          
+      </div>
+  </footer>
+  </body>
+</html>

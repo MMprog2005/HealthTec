@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        body{
+            background-image:linear-gradient( white, rgba(0, 0, 0, 0.852), white) ;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <main>
+        <form id="form" style="background-color:rgba(255, 255, 255, 0.268);">
+            <img class="img-logo" src="logo4.png" alt="logo-site">
+            <label class="label" for="nomeCompleto">Nome:</label>
+            <input class="input" type="text" id="nomeCompleto" name="nomeCompleto" required><br>
+
+            <label class="label" for="telefone">Telefone:</label>
+            <input class="input" type="tel" id="telefone" name="telefone" required><br>
+
+            <label class="label" for="email">E-mail:</label>
+            <input class="input" type="email" id="email" name="email" required><br>
+
+            <label class="label" for="dataNascimento">Data de Nascimento:</label>
+            <input class="input" type="date" id="dataNascimento" name="dataNascimento" required><br>
+
+            <label class="label" for="nomeUsuario">Nome de Usuário:</label>
+            <input class="input" type="text" id="nomeUsuario" name="nomeUsuario" required><br>
+
+            <label class="label" for="senha">Senha:</label>
+            <input class="input" type="password" id="senha" name="senha" required><br>
+            <div>
+                <button type="button" class="but" id="cadastrarBtn">CADASTRAR</button>
+
+                <button type="button" class="but" id="cancelarBtn">CANCELAR</button>
+            </div>
+        </form>
+    </main>
+
+    <dialog>
+        <div id="resultado">
+            
+        </div>
+    </dialog>
+</body>
+</html>
